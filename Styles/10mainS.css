@@ -1,33 +1,53 @@
-eader{
+header{
     font-size: 40px;
     position: fixed;
     top:0;
     right:0;
     left:0;
     height:150px;
-    background-color: teal;
+    background-color: rgb(46, 126, 187);
     text-align: center;
+    background-image: linear-gradient(to right, #a1a8bb, rgb(74, 133, 201));
     }
     section{
     position:relative;
     top:92px;
     }
     nav{
-    background-color: #33d5e5;
+    background-color: #2cb7c4;
     padding:10px;
-    position: fixed;
-    left:0;
+    position:relative;
+    left:100;
     right:0;
+    background-image: linear-gradient(to right, #4c5879, rgb(23, 81, 147));
     }
     nav a{
       text-decoration: none;
       color:black;
-      margin:50px;
+      margin:15px;
       font-size: 20px;
     }
-    nav a:hover{
-      text-decoration:underline;
-      text-decoration-color: orange;
+
+    nav a:hover {
+      background-color: #374772;
+      border: 2px;;
+      color: rgb(0, 0, 0);
+      padding: 13px 32px;
+      text-align: center;
+      font-size: 20px;
+      margin: 4px 2px;
+      opacity: 0.9;
+      transition: 0.5s;
+    }
+
+    article a{
+      border-radius: 25px;
+    }
+    
+    a:hover{
+     
+      opacity: 0.9;
+      transition: 0.5s;
     }
     body{
       background-color:#18A7B5;
@@ -44,9 +64,10 @@ eader{
     }
     article p a{
       text-decoration: none;
-      color:white;
+      color:black;
       margin:50px;
     padding:10px;
+    opacity:0.8;
     background-color: green;
     border: 2px 2px groove black;
     float:left;
