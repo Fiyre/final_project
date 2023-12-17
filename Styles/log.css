@@ -2,6 +2,8 @@ input{
     font-size: 30px;
     border-radius: 15px;
     border-color: black;
+    background-color: black;
+    color: aliceblue;
     }
     
     label{
@@ -14,10 +16,12 @@ input{
       width:372px;
       border-radius: 14px;
       text-align: center;
-      padding:20px;
-      background-color: #452c14;
+      font-size: medium;
+      background-color: #fffafa;
+
     }
     body{
-      background-image:linear-gradient(to right, #69523b, rgb(70, 53, 41));
+      background-image:linear-gradient(to right, #2c5067, rgb(56, 125, 171));
+      
     }
    
